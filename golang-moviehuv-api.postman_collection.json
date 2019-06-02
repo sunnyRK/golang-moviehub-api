@@ -1,0 +1,85 @@
+{
+	"variables": [],
+	"info": {
+		"name": "golang-moviehuv-api",
+		"_postman_id": "dca366ec-fe2d-1a61-5c56-b4fb5aeee40f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/movie",
+			"request": {
+				"url": "http://127.0.0.1:8000/movie",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"radadiya\",\n\t\"year\": \"2018\",\n\t\"rated\": \"50\",\n\t\"genre\": \"okkk\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/movieById/12",
+			"request": {
+				"url": "http://127.0.0.1:8000/movieById/12",
+				"method": "GET",
+				"header": [
+					{
+						"key": "start",
+						"value": "\"13\"",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "end",
+						"value": "\"2015\"",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/movieByYear/2015",
+			"request": {
+				"url": "http://127.0.0.1:8000/movieByYear/2015",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/movieupdate/12",
+			"request": {
+				"url": "http://127.0.0.1:8000/movieupdate/12",
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"sunny\",\n\t\"year\": \"20188888\",\n\t\"rated\": \"5000\",\n\t\"genre\": \"Comedy, Action\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/movieByTitle/Guardians of the Galaxy Vol. 2",
+			"request": {
+				"url": "http://127.0.0.1:8000/movieByTitle/Guardians of the Galaxy Vol. 2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
