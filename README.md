@@ -3,16 +3,13 @@
 Implemented APIs that allows consumers to access the movies data. Most of the queries will be against local database when data isn’t available in the local database then query the IMDB api and store data into local database for future refrence.
 
 # Prerequisite
-Local database: Postgresql
+- Go
+- Postgresql
 
 # Install
-Gorilla mux: 
-    
-    go get github.com/gorilla/mux
+- install all the Go dependencies by running the following command
 
-Postgres Library
-
-    go get github.com/lib/pq
+     go get -d ./...
 
 # Run
 To run write below command into terminal
