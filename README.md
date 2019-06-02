@@ -9,12 +9,12 @@ Implemented APIs that allows consumers to access the movies data. Most of the qu
 # Install
 - install all the Go dependencies by running the following command
 
-     go get -d ./...
+        go get -d ./...
 
 # Run
-To run write below command into terminal
+- To run write below command into terminal
    
-    go run .
+        go run .
 
 # Test in Postman collection
 you can test all the apis from postman collcetion **golang-moviehuv-api.postman_collection.json**
